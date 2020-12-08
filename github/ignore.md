@@ -1,6 +1,6 @@
 # Gitの管理下に置きたくないファイルを設定する.
 ``.gitignore``というファイルにGitの管理下に置きたくないファイルを書いておく.
-次のようなディレクトリ構造でmain_org.c,tmp.c,projectB(で)をGit管理下に置きたくない場合を考える.
+次のようなディレクトリ構造でmain_org.c,tmp.c,projectB(ディレクトリ)をGit管理下に置きたくない場合を考える.
 ```
 workingdir
 |
