@@ -47,3 +47,13 @@ docker rm コンテナ名
 ```
 docker rmi イメージ名
 ```
+
+## dockerのshellに入る
+```
+docker exec -i -t コンテナ名 bash
+```
+
+## dockerでdl4usを起動した後でtokenを確認する
+```
+docker logs dl4us
+```
