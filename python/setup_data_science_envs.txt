@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+tensorflow-gpu
+Keras
+scikit-learn
+xgboost
+lightgbm
+MonthDelta
+openpyxl
+pmdarima
+statsmodel
+requests
+tqdm
