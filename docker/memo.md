@@ -57,3 +57,12 @@ docker exec -i -t コンテナ名 bash
 ```
 docker logs dl4us
 ```
+
+## docker-compose
+### 環境構築
+```
+docker-compose up --build
+```
+
+### 環境を起動する
+docker-compose up
