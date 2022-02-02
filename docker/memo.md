@@ -58,16 +58,5 @@ docker exec -i -t コンテナ名 bash
 docker logs dl4us
 ```
 
-<<<<<<< HEAD
 ## ローカルからコンテナにファイルを送る
 docker cp ファイル名 コンテナ名:パス
-=======
-## docker-compose
-### 環境構築
-```
-docker-compose up --build
-```
-
-### 環境を起動する
-docker-compose up
->>>>>>> 9c64cd9f498f8f18a68a9d2c6b2cd3cab55c9455
