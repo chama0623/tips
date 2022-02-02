@@ -57,3 +57,6 @@ docker exec -i -t コンテナ名 bash
 ```
 docker logs dl4us
 ```
+
+## ローカルからコンテナにファイルを送る
+docker cp ファイル名 コンテナ名:パス
