@@ -13,7 +13,11 @@ docker build -t ml_base:latest .
 
 3. インストールが完了したらコンテナを起動する. コンテナの起動は次のコマンドで行う. 今回は--rmオプションでコンテナの終了時にそのコンテナを削除する(作業内容はセーブされる). そしてコンテナ名は--nameオプションで常に「python3.8」で起動するように設定している. 
 ```
-docker run --rm -it --name python3.8 -p 8888:8888 --gpus all --mount source=mlws,target=/mlws -t  ml_base:latest
+docker run -it --name python3.8 -p 8888:8888 --gpus all --mount source=mlws,target=/mlws -t  ml_base:latest
+```
+2回目以降は次のコマンドでコンテナをスタートさせればよい
+```
+docker start python3.8
 ```
 
 4. bashを起動して日本語設定を行う. bashの起動コマンドを次に示す.
